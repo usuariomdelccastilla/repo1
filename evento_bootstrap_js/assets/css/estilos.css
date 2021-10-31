@@ -1,0 +1,127 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecera{
+    height: 400px;
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../img/ba1.jpg");
+	background-size: cover;
+    background-position: center;
+    padding-top:10%;
+}
+
+.comprarTickets{
+    color: green !important;
+}
+
+
+.textoConf{
+    padding-right: 15px;
+    color: #fff;
+    float: right;
+    font-size: 0.9rem;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 3px black;
+}
+
+.btn:hover{
+    box-shadow: black 2px 2px 5px;
+    }
+    
+.btn-light{
+    color: #fff !important;
+    background-color: transparent !important;
+    border-color: #fff;
+}
+
+.btn-light:hover{
+    background-color: white !important; 
+    color:black !important;
+}
+
+.oradores{
+    width: 40%;
+}
+
+.card{
+    width: 95%;
+    margin: auto;
+}
+
+.card-text{
+    font-size: 10px;
+}
+
+.pantallaDividida{
+    height: 250px;
+}
+
+.form1{
+    width: 60%;
+    margin: auto;
+} 
+
+.subrayado{
+border-bottom: black dotted 1px;
+}
+
+.boton_enviar{
+    background-color: #a5f510 !important;
+    border-color: #93cc2c !important;
+    color: white !important;
+}
+
+.boton_enviar:hover{
+    background: rgb(51, 151, 5) !important;
+    box-shadow: black 0px 0px 3px !important;
+    color: white;
+}
+
+footer{
+    background: #154e6e;
+    padding: 5px;
+    text-align: center;
+}
+
+.enlacesFooter{
+    color:rgb(187, 163, 163) !important; 
+    text-decoration: none !important;
+}
+
+.enlacesFooter:hover{
+    color: white !important; 
+    text-decoration: none !important;
+    text-shadow: 1px 1px 5px green;
+}
+
+.tickets{
+    line-height: 0.8rem;
+    font-size: 0.6rem;
+}
+
+.tickets h5 {
+    font-size: 0.85rem;
+}
+
+.tickets p {
+    font-size: 0.6rem;
+}
+
+.ticket-1{
+    border: 1px blue solid !important;
+    margin: 1px;
+}
+
+.ticket-2{
+    border: 1px green solid !important;
+    margin: 1px;
+}
+
+.ticket-3{
+    border: 1px red solid !important;
+    margin: 1px;
+}
